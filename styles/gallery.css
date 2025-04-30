@@ -103,6 +103,34 @@ section.gallery {
   }
 }
 
+@media screen and (width <= 1024px){
+  section.gallery .content {
+    grid-template-areas: 
+    "A B"
+    "C D";
+  }
+}
+
+@media screen and (width <= 810px){
+  section.gallery .content {
+    grid-template-areas: 
+    "A"
+    "B"
+    "C"
+    "D";
+  }
+}
+
+@media screen and (width <= 500px) {
+  section.gallery{
+    padding-inline: 1.5rem;
+
+    .content figure > img{
+      height: 16rem;
+    }
+  }
+}
+
 @keyframes image-appear {
   from {
     opacity: 0;

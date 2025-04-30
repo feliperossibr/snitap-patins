@@ -99,3 +99,22 @@ footer {
     }
   }
 }
+
+@media screen and (width <= 810px) {
+  footer{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+
+    nav{
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+  }
+}
+
+@media screen and (width <= 500px) {
+  footer{
+    padding-inline: 1.5rem;
+  }
+}

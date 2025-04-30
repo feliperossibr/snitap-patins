@@ -44,3 +44,9 @@ header.top {
     border-radius: 50%;
   }
 }
+
+@media screen and (width <= 500px) {
+  header.top{
+    padding-inline: 1.5rem;
+  }
+}
